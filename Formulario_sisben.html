@@ -1,0 +1,672 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title> Formulario Sisben </title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+
+<body>
+
+    <div class="contenedor">
+
+        <img src="formulario.png" class="sisben">
+        <div id="fecha"> </div>
+    </div>
+
+    <div class="contenedor2">
+        <div class="fecha">
+
+            <div>
+                <label for="nombre"> Fecha Inscripcion </label><br><br>
+                <input type="text" id="dia" placeholder="Dia"> &nbsp;&nbsp;&nbsp;&nbsp;
+                <input type="text" id="dia" placeholder="Mes"> &nbsp;&nbsp;&nbsp;&nbsp;
+                <input type="text" id="dia" placeholder="Año"> <br><br>
+            </div>
+            <div class="region">
+                <label for="Municipio"> Municipio </label>
+                <label for="Departamento"> Departamento </label>
+
+                <input type="text" id="Municipio">
+                 <select id="Departamento1">
+                <option disabled selected>Seleccione</option>
+                <option value = "Amazonas">Amazonas</option>
+                <option value = "Antioquia">Antioquia</option>
+                <option value = "Arauca">Arauca</option>
+                <option value = "Atlántico">Atlántico</option>
+                <option value = "Bolívar">Bolívar</option>
+                <option value = "Boyacá">Boyacá</option>
+                <option value = "Caldas">Caldas</option>
+                <option value = "Caquetá">Caquetá</option>
+                <option value = "Casanare">Casanare</option>
+                <option value = "Cauca">Cauca</option>
+                <option value = "Cesar">Cesar</option>
+                <option value = "Chocó">Chocó</option>                  
+                <option value = "Córdoba">Córdoba</option>
+                <option value = "Cundinamarca">Cundinamarca</option>
+                <option value = "Guainía">Guainía</option>
+                <option value = "Guaviare">Guaviare</option>
+                <option value = "Huila">Huila</option>
+                <option value = "La Guajira">La Guajira</option>
+                <option value = "Magdalena">Magdalena</option>
+                <option value = "Meta">Meta</option>
+                <option value = "Nariño">Nariño</option>
+                <option value = "Norte de Santander">Norte de Santander</option>
+                <option value = "Putumayo">Putumayo</option>                
+                <option value = "Quindío">Quindío</option>  
+                <option value = "Risaralda">Risaralda</option>
+                <option value = "San Andrés y Providencia">San Andrés y Providencia</option>
+                <option value = "Santander">Santander</option>
+                <option value = "Sucre">Sucre</option>
+                <option value = "Tolima">Tolima</option>
+                <option value = "Valle del Cauca">Valle del Cauca</option>
+                <option value = "Vaupés">Vaupés</option>
+                <option value = "Vichada">Vichada</option>
+            </select> 
+            </div>
+
+        </div>
+    </div>
+
+    <h3 id="titulo"> DATOS DEL SOLICITANTE </h3>
+    <div class="contenedor3">
+        <div class="datos">
+            <label for="Nombre1"> Primer Nombre </label>
+            <label for="Nombre2"> Segundo Nombre</label>
+            <label for="Apellido1"> Primer Apellido </label>
+            <label for="Apellido2"> Segundo Apellido </label>
+            <label for="sexo"> Sexo </label>
+
+            <input type="text" id="nombres">
+            <input type="text" id="nombres">
+            <input type="text" id="nombres">
+            <input type="text" id="nombres">
+
+            <div class="genero">
+                <label for="sexo" class="letras"> M </label>
+                <input type="checkbox" id="sexo" name="genero">
+                <label for="sexo" class="letras">F </label>
+                <input type="checkbox" id="sexo" name="genero">
+            </div>
+
+        </div>
+
+        <div class="datos2">
+            <label for="Extrangero "> Extrangero </label>
+            <label for="Tipo Documento"> Tipo Documento</label>
+            <label for="Numero Documento"> Numero Documento </label>
+            <label for="Fecha Nacimiento"> Fecha Nacimiento </label>
+            <label for="Fecha expedicion Doc"> Fecha expedicion Doc </label>
+
+            <select id="Extrangero">
+						<option disabled selected>Escoja una opcion</option>
+						<option> Si </option>
+						<option> No </option>
+					</select>
+            <select id="Tipo_Documento">
+						<option disabled selected>Escoja una opcion</option>
+						<option>Targeta Identidad</option>
+						<option>Cedula Ciudadania</option>
+						<option>Cedula extranjeria</option>
+					</select>
+            <input type="text" id="datos2">
+            <input type="date" id="Fec_nacimiento">
+            <input type="date" id="Fec_expe">
+        </div>
+
+        <div class="datos3">
+            <label for=" Pais "> Pais </label>
+            <label for="Departamento"> Departamento </label>
+            <label for="Municipio"> Municipio </label>
+            <label for=" Correo "> Correo </label>
+
+            <select id="Pais">
+                    <option disabled selected>Seleccione</option>
+                    <option >Afganistán</option>
+                    <option >Albania</option>
+                    <option >Alemania</option>
+                    <option >Andorra</option>
+                    <option >Angola</option>
+                    <option >Anguilla</option>
+                    <option >Antártida</option>
+                    <option >Antigua y Barbuda</option>
+                    <option >Antillas Holandesas</option>
+                    <option >Arabia Saudí</option>
+                    <option >Argelia</option>
+                    <option >Argentina</option>
+                    <option >Armenia</option>
+                    <option >Aruba</option>
+                    <option >Australia</option>
+                    <option >Austria</option>
+                    <option >Azerbaiyán</option>
+                    <option >Bahamas</option>
+                    <option >Bahrein</option>
+                    <option >Bangladesh</option>
+                    <option >Barbados</option>
+                    <option >Bélgica</option>
+                    <option >Belice</option>
+                    <option >Benin</option>
+                    <option >Bermudas</option>
+                    <option >Bielorrusia</option>
+                    <option >Birmania</option>
+                    <option >Bolivia</option>
+                    <option >Bosnia y Herzegovina</option>
+                    <option >Botswana</option>
+                    <option >Brasil</option>
+                    <option >Brunei</option>
+                    <option >Bulgaria</option>
+                    <option >Burkina Faso</option>
+                    <option >Burundi</option>
+                    <option >Bután</option>
+                    <option >Cabo Verde</option>
+                    <option >Camboya</option>
+                    <option >Camerún</option>
+                    <option >Canadá</option>
+                    <option >Chad</option>
+                    <option >Chile</option>
+                    <option >China</option>
+                    <option >Chipre</option>
+                    <option >Ciudad del Vaticano (Santa Sede)</option>
+                    <option >Colombia</option>
+                    <option >Comores</option>
+                    <option >Congo</option>
+                    <option >Congo, República Democrática del</option>
+                    <option >Corea</option>
+                    <option >Corea del Norte</option>
+                    <option >Costa de Marfíl</option>
+                    <option >Costa Rica</option>
+                    <option >Croacia (Hrvatska)</option>
+                    <option >Cuba</option>
+                    <option >Dinamarca</option>
+                    <option >Djibouti</option>
+                    <option >Dominica</option>
+                    <option >Ecuador</option>
+                    <option >Egipto</option>
+                    <option >El Salvador</option>
+                    <option >Emiratos Árabes Unidos</option>
+                    <option >Eritrea</option>
+                    <option >Eslovenia</option>
+                    <option >España</option>
+                    <option >Estados Unidos</option>
+                    <option >Estonia</option>
+                    <option >Etiopía</option>
+                    <option >Fiji</option>
+                    <option >Filipinas</option>
+                    <option >Finlandia</option>
+                    <option >Francia</option>
+                    <option >Gabón</option>
+                    <option >Gambia</option>
+                    <option >Georgia</option>
+                    <option >Ghana</option>
+                    <option >Gibraltar</option>
+                    <option >Granada</option>
+                    <option >Grecia</option>
+                    <option >Groenlandia</option>
+                    <option >Guadalupe</option>
+                    <option >Guam</option>
+                    <option >Guatemala</option>
+                    <option >Guayana</option>
+                    <option >Guayana Francesa</option>
+                    <option >Guinea</option>
+                    <option >Guinea Ecuatorial</option>
+                    <option >Guinea-Bissau</option>
+                    <option >Haití</option>
+                    <option >Honduras</option>
+                    <option >Hungría</option>
+                    <option >India</option>
+                    <option >Indonesia</option>
+                    <option >Irak</option>
+                    <option >Irán</option>
+                    <option >Irlanda</option>
+                    <option >Isla Bouvet</option>
+                    <option >Isla de Christmas</option>
+                    <option >Islandia</option>
+                    <option >Islas Caimán</option>
+                    <option >Islas Cook</option>
+                    <option >Islas de Cocos o Keeling</option>
+                    <option >Islas Faroe</option>
+                    <option >Islas Heard y McDonald</option>
+                    <option >Islas Malvinas</option>
+                    <option >Islas Marianas del Norte</option>
+                    <option >Islas Marshall</option>
+                    <option >Islas menores de Estados Unidos</option>
+                    <option >Islas Palau</option>
+                    <option >Islas Salomón</option>
+                    <option >Islas Svalbard y Jan Mayen</option>
+                    <option >Islas Tokelau</option>
+                    <option >Islas Turks y Caicos</option>
+                    <option >Islas Vírgenes (EEUU)</option>
+                    <option >Islas Vírgenes (Reino Unido)</option>
+                    <option >Islas Wallis y Futuna</option>
+                    <option >Israel</option>
+                    <option >Italia</option>
+                    <option >Jamaica</option>
+                    <option >Japón</option>
+                    <option >Jordania</option>
+                    <option >Kazajistán</option>
+                    <option >Kenia</option>
+                    <option >Kirguizistán</option>
+                    <option >Kiribati</option>
+                    <option >Kuwait</option>
+                    <option >Laos</option>
+                    <option >Lesotho</option>
+                    <option >Letonia</option>
+                    <option >Líbano</option>
+                    <option >Liberia</option>
+                    <option >Libia</option>
+                    <option >Liechtenstein</option>
+                    <option >Lituania</option>
+                    <option >Luxemburgo</option>
+                    <option >Macedonia, Ex-República Yugoslava de</option>
+                    <option >Madagascar</option>
+                    <option >Malasia</option>
+                    <option >Malawi</option>
+                    <option >Maldivas</option>
+                    <option >Malí</option>
+                    <option >Malta</option>
+                    <option >Marruecos</option>
+                    <option >Martinica</option>
+                    <option >Mauricio</option>
+                    <option >Mauritania</option>
+                    <option >Mayotte</option>
+                    <option >México</option>
+                    <option >Micronesia</option>
+                    <option >Moldavia</option>
+                    <option >Mónaco</option>
+                    <option >Mongolia</option>
+                    <option >Montserrat</option>
+                    <option >Mozambique</option>
+                    <option >Namibia</option>
+                    <option >Nauru</option>
+                    <option >Nepal</option>
+                    <option >Nicaragua</option>
+                    <option >Níger</option>
+                    <option >Nigeria</option>
+                    <option >Niue</option>
+                    <option >Norfolk</option>
+                    <option >Noruega</option>
+                    <option >Nueva Caledonia</option>
+                    <option >Nueva Zelanda</option>
+                    <option >Omán</option>
+                    <option >Países Bajos</option>
+                    <option >Panamá</option>
+                    <option >Papúa Nueva Guinea</option>
+                    <option >Paquistán</option>
+                    <option >Paraguay</option>
+                    <option >Perú</option>
+                    <option >Pitcairn</option>
+                    <option >Polinesia Francesa</option>
+                    <option >Polonia</option>
+                    <option >Portugal</option>
+                    <option >Puerto Rico</option>
+                    <option >Qatar</option>
+                    <option >Reino Unido</option>
+                    <option >República Centroafricana</option>
+                    <option >República Checa</option>
+                    <option >República de Sudáfrica</option>
+                    <option >República Dominicana</option>
+                    <option >República Eslovaca</option>
+                    <option >Reunión</option>
+                    <option >Ruanda</option>
+                    <option >Rumania</option>
+                    <option >Rusia</option>
+                    <option >Sahara Occidental</option>
+                    <option >Saint Kitts y Nevis</option>
+                    <option >Samoa</option>
+                    <option >Samoa Americana</option>
+                    <option >San Marino</option>
+                    <option >San Vicente y Granadinas</option>
+                    <option >Santa Helena</option>
+                    <option >Santa Lucía</option>
+                    <option >Santo Tomé y Príncipe</option>
+                    <option >Senegal</option>
+                    <option >Seychelles</option>
+                    <option >Sierra Leona</option>
+                    <option >Singapur</option>
+                    <option >Siria</option>
+                    <option >Somalia</option>
+                    <option >Sri Lanka</option>
+                    <option >St Pierre y Miquelon</option>
+                    <option >Suazilandia</option>
+                    <option >Sudán</option>
+                    <option >Suecia</option>
+                    <option >Suiza</option>
+                    <option >Surinam</option>
+                    <option >Tailandia</option>
+                    <option >Taiwán</option>
+                    <option >Tanzania</option>
+                    <option >Tayikistán</option>
+                    <option >Territorios franceses del Sur</option>
+                    <option >Timor Oriental</option>
+                    <option >Togo</option>
+                    <option >Tonga</option>
+                    <option >Trinidad y Tobago</option>
+                    <option >Túnez</option>
+                    <option >Turkmenistán</option>
+                    <option >Turquía</option>
+                    <option >Tuvalu</option>
+                    <option >Ucrania</option>
+                    <option >Uganda</option>
+                    <option >Uruguay</option>
+                    <option >Uzbekistán</option>
+                    <option >Vanuatu</option>
+                    <option >Venezuela</option>
+                    <option >Vietnam</option>
+                    <option >Yemen</option>
+                    <option >Yugoslavia</option>
+                    <option >Zambia</option>
+                    <option >Zimbabue</option>     
+                </select> 
+            <select id="Departamento">
+                <option disabled selected>Seleccione</option>
+                <option value = "Amazonas">Amazonas</option>
+                <option value = "Antioquia">Antioquia</option>
+                <option value = "Arauca">Arauca</option>
+                <option value = "Atlántico">Atlántico</option>
+                <option value = "Bolívar">Bolívar</option>
+                <option value = "Boyacá">Boyacá</option>
+                <option value = "Caldas">Caldas</option>
+                <option value = "Caquetá">Caquetá</option>
+                <option value = "Casanare">Casanare</option>
+                <option value = "Cauca">Cauca</option>
+                <option value = "Cesar">Cesar</option>
+                <option value = "Chocó">Chocó</option>                  
+                <option value = "Córdoba">Córdoba</option>
+                <option value = "Cundinamarca">Cundinamarca</option>
+                <option value = "Guainía">Guainía</option>
+                <option value = "Guaviare">Guaviare</option>
+                <option value = "Huila">Huila</option>
+                <option value = "La Guajira">La Guajira</option>
+                <option value = "Magdalena">Magdalena</option>
+                <option value = "Meta">Meta</option>
+                <option value = "Nariño">Nariño</option>
+                <option value = "Norte de Santander">Norte de Santander</option>
+                <option value = "Putumayo">Putumayo</option>                
+                <option value = "Quindío">Quindío</option>  
+                <option value = "Risaralda">Risaralda</option>
+                <option value = "San Andrés y Providencia">San Andrés y Providencia</option>
+                <option value = "Santander">Santander</option>
+                <option value = "Sucre">Sucre</option>
+                <option value = "Tolima">Tolima</option>
+                <option value = "Valle del Cauca">Valle del Cauca</option>
+                <option value = "Vaupés">Vaupés</option>
+                <option value = "Vichada">Vichada</option>
+            </select>       
+            <input type="text" id="datos3">
+            <input type="email" id="datos4">
+        </div>
+
+        <div class="datos5">
+            <label for=" direccion "> Dirreccion/Domicilio </label>
+            <label for="Departamento"> Telefono </label>
+
+            <input type="text" id="datos6">
+            <input type="number" id="Telefono">
+        </div>
+    </div>
+
+    <h3 id="titulo"> DETALLE DE LA SOLICITUD </h3>
+    <div class="contenedor4">
+        <div class="datos">
+            <label for="solicitud" id="tipo">TIPO DE SOLICITUD  </label>
+            <label for="Nombre2" id="tipo"> Inclusion - Modificacion - Retiro</label>
+            <input type="checkbox" id="opcion" name="genero">
+            <label for="Apellido1" id="tipo"> ¿ ENCUESTA NUEVA ? </label>
+            <input type="checkbox" id="encuesta" name="genero">
+        </div>
+
+        <div class="datosn">
+            <label for="solicitud" id="tipo">¿ Que informacion de la que encuesta desea modificar ? </label>
+            <select id="Modificacion">
+						<option disabled selected>Escoja una opcion</option>
+						<option>Identificacion</option>
+						<option>Datos De la vivienda </option>
+						<option> Datos de Hogar</option>
+						<option> Datos de personas</option>
+					</select>
+        </div>
+
+    </div>
+
+    <div class="contenedor5">
+        <div class="datos6">
+            <label for="solicitud" id="tipo2">¿ el solicitante puede aportar  datos para la solicitud ?  </label>
+             <label for="genero" id="Si2" > Si  </label> 
+            <input type="checkbox" id="chek" name="genero">
+             <label for="genero2" id="No2"> NO </label>
+            <input type="checkbox" id="chek1" name="genero2">
+
+            <label for="solicitud" id="text">¿ el sistema genera alerta por solicitud de cambios de edad ?  </label>
+             <label for="genero" id="Si1" > Si  </label> 
+           
+            <input type="checkbox" id="si" name="genero">
+             <label for="genero2" id="No1"> NO </label>
+            <input type="checkbox" id="no" name="genero">
+        </div>
+    </div>
+
+    <h3 id="titulo3"> PERSONAS DEL HOGAR SOLICITANTE </h3>
+    <div class="contenedor6">
+        <div class="tabla">
+            <table class="tab">
+                <tr>
+                    <th> Orden </th>
+                    <th> 1° Nombre </th>
+                    <th> 2° Nombre </th>
+                    <th> 1° Apellido </th>
+                    <th> 2° Apellido </th>
+                    <th> Documento </th>
+                    <th> Retiro </th>
+                    <th> Inclusion </th>
+                    <th> Modificacion </th>
+                </tr>
+                <tr>
+
+                    <th>1</th>
+                    <td>
+                        <input class="casilla">
+                    </td>
+                    <td>
+                        <input class="casilla">
+                    </td>
+                    <td>
+                        <input class="casilla">
+                    </td>
+                    <td>
+                        <input class="casilla">
+                    </td>
+                    <td>
+                        <input class="casilla">
+                    </td>
+                    <td><input type="checkbox" class="opt"></td>
+                    <td><input type="checkbox" class="opt"></td>
+                    <td><input type="checkbox" class="opt"></td>
+                </tr>
+                <tr>
+
+                    <th>2</th>
+                    <td>
+                        <input class="casilla">
+                    </td>
+                    <td>
+                        <input class="casilla">
+                    </td>
+                    <td>
+                        <input class="casilla">
+                    </td>
+                    <td>
+                        <input class="casilla">
+                    </td>
+                    <td>
+                        <input class="casilla">
+                    </td>
+                    <td><input type="checkbox" class="opt"></td>
+                    <td><input type="checkbox" class="opt"></td>
+                    <td><input type="checkbox" class="opt"></td>
+                </tr>
+                <tr>
+
+                    <th>3</th>
+                    <td>
+                        <input class="casilla">
+                    </td>
+                    <td>
+                        <input class="casilla">
+                    </td>
+                    <td>
+                        <input class="casilla">
+                    </td>
+                    <td>
+                        <input class="casilla">
+                    </td>
+                    <td>
+                        <input class="casilla">
+                    </td>
+                    <td><input type="checkbox" class="opt"></td>
+                    <td><input type="checkbox" class="opt"></td>
+                    <td><input type="checkbox" class="opt"></td>
+                </tr>
+                <tr>
+
+                    <th>4</th>
+                    <td>
+                        <input class="casilla">
+                    </td>
+                    <td>
+                        <input class="casilla">
+                    </td>
+                    <td>
+                        <input class="casilla">
+                    </td>
+                    <td>
+                        <input class="casilla">
+                    </td>
+                    <td>
+                        <input class="casilla">
+                    </td>
+                    <td><input type="checkbox" class="opt"></td>
+                    <td><input type="checkbox" class="opt"></td>
+                    <td><input type="checkbox" class="opt"></td>
+                </tr>
+                <tr>
+
+                    <th>5</th>
+                    <td>
+                        <input class="casilla">
+                    </td>
+                    <td>
+                        <input class="casilla">
+                    </td>
+                    <td>
+                        <input class="casilla">
+                    </td>
+                    <td>
+                        <input class="casilla">
+                    </td>
+                    <td>
+                        <input class="casilla">
+                    </td>
+                    <td><input type="checkbox" class="opt"></td>
+                    <td><input type="checkbox" class="opt"></td>
+                    <td><input type="checkbox" class="opt"></td>
+                </tr>
+                <tr>
+
+                    <th>6</th>
+                    <td>
+                        <input class="casilla">
+                    </td>
+                    <td>
+                        <input class="casilla">
+                    </td>
+                    <td>
+                        <input class="casilla">
+                    </td>
+                    <td>
+                        <input class="casilla">
+                    </td>
+                    <td>
+                        <input class="casilla">
+                    </td>
+                    <td><input type="checkbox" class="opt"></td>
+                    <td><input type="checkbox" class="opt"></td>
+                    <td><input type="checkbox" class="opt"></td>
+                </tr>
+                <tr>
+
+                    <th>7</th>
+                    <td>
+                        <input class="casilla">
+                    </td>
+                    <td>
+                        <input class="casilla">
+                    </td>
+                    <td>
+                        <input class="casilla">
+                    </td>
+                    <td>
+                        <input class="casilla">
+                    </td>
+                    <td>
+                        <input class="casilla">
+                    </td>
+                    <td><input type="checkbox" class="opt"></td>
+                    <td><input type="checkbox" class="opt"></td>
+                    <td><input type="checkbox" class="opt"></td>
+                </tr>
+                <tr>
+
+                    <th>8</th>
+                    <td>
+                        <input class="casilla">
+                    </td>
+                    <td>
+                        <input class="casilla">
+                    </td>
+                    <td>
+                        <input class="casilla">
+                    </td>
+                    <td>
+                        <input class="casilla">
+                    </td>
+                    <td>
+                        <input class="casilla">
+                    </td>
+                    <td><input type="checkbox" class="opt"></td>
+                    <td><input type="checkbox" class="opt"></td>
+                    <td><input type="checkbox" class="opt"></td>
+                </tr>
+            </table>
+        </div>
+    </div>
+    <h3 id="titulo4"> AUTORIZACION Y DECLARACION DE LA PERSONA SOLICITANTE </h3>
+    <div class="contenedor7">
+        <div class="Auto">
+            <P>El DNP actuará como responsable del tratamiento de datos personales, de acuerdo con la política de tratamiento de datos personales de la entidad. La información registrada en el Sisbén y los datos personales serán utilizados para orientar
+                las políticas sociales del Gobierno. <br> &nbsp;&nbsp; Declaro bajo la gravedad de juramento que la información suministrada es verdadera y se brinda de forma voluntaria, y autorizo a que sea verificada con otras fuentes de informacion,
+                y que se actualice de forma automatica a traves del cruce con registros administrativos u otras fuentes que el DNP defina. Cualquier presunta falsedad indentificada a traves decruces con bases de datos generará la exclusion del Sisbén,
+                independientemente de las accion legales a que haya lugar. <br> &nbsp;&nbsp; Autorizo que el resultado de la presente solicitud o en su defecto las observaciones que se formulen sean notificadas a la direccion de correo electronico señaladas
+                en la seccion "Informante calificado del hogar"</P>
+        </div>
+        <div class="confir">
+
+            <h3>¿ESTÁ DE ACUERDO?</h3>
+
+            <h3><label for="si">SI</label></h3>
+            <h3><input type="checkbox" class="opt" id="si3"></h3>
+
+            <h3><label for="no">NO</label></h3>
+            <h3><input type="checkbox" class="opt" id="no3"></h3>
+
+        </div>
+    </div>
+    <div class="escudo1">
+        <div class="escudo2"><img src="escudo.png" alt="20"></div>
+        <div class="boton"><button>ENVIAR</button></div>
+    </div>
+
+</body>
+
+</html>

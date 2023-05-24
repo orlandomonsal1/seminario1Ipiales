@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title> Pagina Sisben</title>
+	<link rel="stylesheet" type="text/css" href="css/materialize.min.css">
+  <link rel="stylesheet" type="text/css" href="css/style.css">
+	<script type="text/javascript " src="materialize.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+
+</head>
+<body>
+ 
+  <div class="contenedor">
+
+    <img src="sisben.png" class="sisben">
+    <div id="fecha"> </div>
+</div>
+  
+<div class="contenedor">
+
+  <img src="logo4.jpg" class="Logo4">
+  <div id="fecha2"> </div>
+</div>
+
+	<nav>
+    <div class="nav-wrapper">
+      <a href="Inicio.html" class="brand-logo right">Sisben-IV</a>
+      <ul id="nav-mobile" class="left hide-on-med-and-down">
+        <li><a href="Inicio.html">Inicio</a></li> 
+        <li><a href="Formulario.html">Formulario Inscripcion</a></li>
+        <li><a href="Informacion.html">Informacion y Consultas </a></li>
+      </ul>
+    </div>
+  </nav>
+
+ 
+
+<div class="carousel carousel-slider">
+  <a class="carousel-item" href="#one!"><img src="bienvenida.jpg"></a>
+  <a class="carousel-item" href="#two!"><img src="img.png"></a>
+  <a class="carousel-item" href="#three!"><img src="img2.jpg"></a>
+  <a class="carousel-item" href="#four!"><img src="img2.png"></a>
+  <a class="carousel-item" href="#five!"><img src="img4.jpg"></a>
+</div>
+
+<script>
+  var options={
+    indicators:true,
+    duration:300,
+    numVisible:1,
+    
+  };
+  document.addEventListener('DOMContentLoaded', function() {
+    var elems = document.querySelectorAll('.carousel');
+    var instances = M.Carousel.init(elems, options);
+  });
+</script>
+
+
+ 
+  <div class="row">
+    <div class="col-md-4">
+    <div class="col s12 m7">
+      <div class="card" id="carta">
+        <div class="card-image">
+          <img src="grupo4.png">
+        </div>
+        <div class="card-content">
+          <font size="4" face="" align="justify">
+          <p>comprende a hogares en situación de pobreza
+            extrema. En este grupo los hogares estarán
+            clasificados en 5 subgrupos, desde A1 hasta
+            A5.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+  
+  <div class="row">
+    <div class="col-md-4">
+    <div class="col s12 m7">
+      <div class="card" id="carta1">
+        <div class="card-image">
+          <img src="gropuB.png">
+        </div>
+        <div class="card-content">
+          <p>corresponde a hogares en condición de
+            pobreza moderada. Este grupo tendrá 7
+            subgrupos desde el B1 hasta el B7. </p>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+  
+  <div class="row">
+    <div class="col-md-4">
+    <div class="col s12 m7">
+      <div class="card" id="carta2">
+        <div class="card-image">
+          <img src="grupoC.png">
+        </div>
+        <div class="card-content">
+          <p>corresponde a hogares en condición de
+            vulnerabilidad. Este grupo tendrá 18 subgrupos
+            desde el C1 hasta el C18. </p>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+      
+  <div class="row">
+    <div class="col-md-4">
+    <div class="col s12 m7">
+      <div class="card" id="carta3" >
+        <div class="card-image">
+          <img src="grupoD.png">
+        </div>
+        <div class="card-content">
+          <p>comprende hogares que no están en situación
+            de pobreza. Este grupo tendrá 21 subgrupos
+            desde el D1 hasta el D21. </p>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+      
+<video id="video" controls>
+  <source src="video.mp4" type="video/mp4">
+</video>
+
+<div class="row">
+  <div class="col s12">
+    <div class="row">
+      <div class="input-field col s12" id="comentarios">
+        <input type="text" id="autocomplete-input" class="autocomplete">
+        <label for="autocomplete-input">Comentarios y Sugerencias</label>
+      </div>
+    </div>
+  </div>
+</div>
+
+<button class="btn waves-effect waves-light" type="submit" name="action" id="enviar"> Enviar 
+  <i class="material-icons right" i></i>
+</button>
+
+<div class="contenedor">
+  <img src="img6.png" id="sisben1">
+</div>
+
+
+</body>
+</html>

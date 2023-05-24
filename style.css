@@ -1,0 +1,414 @@
+body {
+    font-family: Arial;
+}
+
+.contenedor {
+    display: flex;
+    justify-content: left;
+}
+
+.sisben {
+    margin-left: 10px;
+    height: 250px;
+    width: 600px;
+}
+
+.contenedor2 {
+    display: flex;
+    justify-content: right;
+}
+
+.fecha {
+    padding: 20px;
+    margin-right: 100px;
+    margin-top: -230px;
+    height: 170px;
+    width: 650px;
+    background-color: lightgrey;
+    border-radius: 15px;
+}
+
+#Fecha {
+    font-size: 20px;
+    font-family: times new roman;
+}
+
+#dia {
+    height: 20px;
+    width: 170px;
+}
+
+#Municipio {
+    height: 20px;
+    width: 250px;
+}
+
+.region {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    gap: 20px;
+}
+
+.contenedor3 {
+    padding: 20px;
+    display: grid;
+    margin-right: 100px;
+    margin-left: 100px;
+    border-radius: 15px;
+    height: 300px;
+    width: 1215px;
+    background-color: lightgrey;
+    align-items: start;
+}
+
+#titulo {
+    margin-left: 120px;
+}
+
+.datos {
+    display: grid;
+    grid-template-columns: 20% 20% 20% 20% 20%;
+    gap: 10px;
+}
+
+#nombres {
+    height: 20px;
+    width: 210px;
+}
+
+#sexo {
+    height: 25px;
+    width: 50px;
+}
+
+.genero {
+    display: grid;
+    grid-template-columns: 10px 80px 10px 20px;
+}
+
+.letras {
+    margin-top: 5px;
+}
+
+.datos2 {
+    margin-top: 0px;
+    display: grid;
+    grid-template-columns: 20% 20% 20% 20% 20%;
+    gap: 10px;
+}
+
+#datos2 {
+    height: 20px;
+    width: 200px;
+}
+
+.datos3 {
+    margin-top: 10px;
+    display: grid;
+    grid-template-columns: 20% 20% 20% 35%;
+    gap: 15px;
+}
+
+#datos3 {
+    height: 20px;
+    width: 200px;
+}
+
+.datos5 {
+    margin-top: 5px;
+    display: grid;
+    grid-template-columns: 60% 40%;
+    gap: 25px;
+}
+
+#datos5 {
+
+    height: 20px;
+    width: 430px;
+    gap: 15px;
+}
+
+.contenedor4 {
+    padding: 20px;
+    display: grid;
+    margin-right: 100px;
+    margin-left: 100px;
+    border-radius: 15px;
+    height: 200px;
+    width: 1215px;
+    background-color: lightgrey;
+    align-items: start;
+}
+
+#opcion {
+    display: grid;
+    grid-template-columns: 10px 50px 50px 20px;
+    height: 25px;
+    width: 50px;
+}
+
+#tipo {
+    margin-top: 5px;
+}
+
+.contenedor5 {
+    padding: 20px;
+    display: grid;
+    margin-right: 100px;
+    margin-left: 100px;
+    margin-top: -150px;
+    border-radius: 15px;
+    height: 40px;
+    width: 1215px;
+    background-color: #E5E7E9;
+    align-items: start;
+}
+
+.datos6 {
+    display: grid;
+    grid-template-columns: 340px 80px 200px 400px 100px 600px;
+}
+
+#tipo2 {
+    margin-top: 5px;
+}
+
+#opcion2 {
+    height: 25px;
+    width: 50px;
+}
+
+#opcion3 {
+    height: 25px;
+    width: 50px;
+}
+
+#Modificacion {
+    height: 30px;
+    width: 210px;
+}
+
+.datosn {
+    margin-top: 130px;
+    display: grid;
+    grid-template-columns: 340px 100px
+}
+
+#titulo3 {
+    margin-top: 90px;
+    margin-left: 120px;
+}
+
+.contenedor6 {
+    padding: 20px;
+    display: grid;
+    margin-right: 100px;
+    margin-left: 100px;
+    margin-top: 20px;
+    border-radius: 15px;
+    height: 270px;
+    width: 1215px;
+    background-color: lightgrey;
+    align-items: start;
+}
+
+.tabla {
+    background-color: #ffff;
+}
+
+.tab {
+    width: 100%;
+}
+
+th {
+    background-color: lightgrey;
+}
+
+td {
+    height: 20px;
+}
+
+.casilla {
+    height: 20px;
+    width: 95%;
+}
+
+.opt {
+    height: 20px;
+    width: 50px;
+}
+
+.contenedor7 {
+    position: relative;
+    padding: 20px;
+    display: grid;
+    margin-right: 100px;
+    margin-left: 100px;
+    margin-top: 10px;
+    border-radius: 15px;
+    height: 190px;
+    width: 1215px;
+    background-color: #E5E7E9;
+    align-items: start;
+}
+
+#titulo4 {
+    margin-top: 20px;
+    margin-left: 120px;
+}
+
+.confir {
+    display: grid;
+    grid-template-columns: 48% 13% 13% 13% 13%;
+    position: absolute;
+    right: 100px;
+    bottom: 0;
+    width: 500px;
+    height: 50px;
+}
+
+.escudo1 {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    position: relative;
+}
+
+.escudo2 img {
+    max-width: 400px;
+    height: auto;
+}
+
+.boton {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin: -25px 0 0 -25px;
+}
+
+button {
+    padding: .5rem 2rem;
+    border-radius: 5px;
+    font-weight: 600;
+    border: 1px solid black;
+}
+
+button:hover {
+    background-color: #1a5cff;
+    color: white;
+    transform: scale(1.1);
+    font-weight: 700;
+    -webkit-box-shadow: 7px 7px 23px -12px rgba(26, 91, 255, 1);
+    -moz-box-shadow: 7px 7px 23px -12px rgba(26, 91, 255, 1);
+    box-shadow: 7px 7px 23px -12px rgba(26, 91, 255, 1);
+    border: none;
+}
+
+button:active {
+    background-color: #1752e5;
+}
+.opc{
+     margin-right: 1000px;
+    margin-left: -150px;
+}
+#Pais{
+     height: 25px;
+    width: 215px;
+}
+#Departamento{
+     height: 25px;
+    width: 215px;
+}
+#Extrangero{
+     height: 25px;
+    width: 215px;
+}
+#Tipo_Documento{
+     height: 25px;
+    width: 215px; 
+}
+#Fec_nacimiento{
+    height: 25px;
+    width: 215px; 
+}
+#Fec_expe{
+    height: 25px;
+    width: 205px; 
+}
+#cuadro2{
+    margin-right: 100px;
+    margin-left: -30px;
+    height: 25px;
+    width: 50px;
+}
+#Telefono{
+    margin-right: 200px;
+    margin-left: 15px;
+    height: 25px;
+    width: 420px;
+
+}
+#Departamento1{
+     height: 25px;
+    width: 240px;
+}
+#Si1{
+    margin-top: -40px;
+    margin-right: 80px;
+    margin-left: 1050px;
+}
+#No1{
+     margin-top: -40px;
+    margin-right: -100px;
+    margin-left: 720px;
+}
+#si{
+     margin-top: -43px;
+  margin-right: 20px;
+    margin-left: 730px; 
+     height: 25px;
+    width: 50px; 
+}
+#no{
+    margin-top: -43px;
+    margin-right: 20px;
+    margin-left: 550px; 
+    height: 25px;
+    width: 50px; 
+}
+#Si2{
+    margin-top: 5px;
+    margin-right: 20px;
+    margin-left: 15px;
+}
+#No2{
+     margin-top: 5px;
+    margin-right: 10px;
+    margin-left: -180px;
+}
+#chek{
+  margin-top: 3px;
+  margin-right: 20px;
+    margin-left:-45px; 
+     height: 25px;
+    width: 50px;
+}
+#chek1{
+     margin-top: 3px;
+      margin-right: 20px;
+    margin-left: -550px; 
+     height: 25px;
+    width: 50px; 
+}
+#text{
+    margin-top: 5px;
+     margin-right: 20px;
+    margin-left: -550px; 
+   
+}
+#encuesta{
+    margin-top: 3px;
+      margin-right: 20px;
+    margin-left: -30px; 
+     height: 25px;
+    width: 50px;  
+}
