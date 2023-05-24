@@ -184,7 +184,8 @@ iframe{
     width: 600px;
 }
 
-.contenedor {
+.contenedor7 {
+    margin-top:-10px;
     display: flex;
     justify-content: left;
 }
@@ -193,8 +194,20 @@ iframe{
     background-color: #1a5cff;
 }
 
-
-
+.collapsible12{
+    margin-top:50px;
+	margin-right: 250px;
+    margin-left: 130px;
+    width: 1200px;    
+}
+#que{
+    margin-left: 20px;
+    height: 50px;
+    width: 50px;
+}
+#que_es{
+    margin-left: 30px;  
+}
 
 
 
