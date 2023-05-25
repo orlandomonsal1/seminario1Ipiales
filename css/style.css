@@ -184,7 +184,7 @@ iframe{
     width: 600px;
 }
 
-.contenedor7 {
+.contenedor{
     margin-top:-10px;
     display: flex;
     justify-content: left;
@@ -208,7 +208,9 @@ iframe{
 #que_es{
     margin-left: 30px;  
 }
-
+.pagination{
+    margin-left: 700px;
+}
 
 
 
